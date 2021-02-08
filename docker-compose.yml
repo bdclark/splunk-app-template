@@ -1,0 +1,14 @@
+version: '3'
+services:
+  splunk:
+    image: splunk/splunk:latest
+    environment:
+      SPLUNK_START_ARGS: --accept-license
+      SPLUNK_PASSWORD: changeme
+    volumes:
+    - './app:/opt/splunk/etc/apps/myapp'
+    ports:
+      - "8000:8000"
+      # - "9997:9997"
+      # - "8088:8088"
+      # - "1514:1514"

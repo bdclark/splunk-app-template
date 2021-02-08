@@ -1,0 +1,12 @@
+**/.DS_Store
+**/local
+**/local.meta
+**/lookups/*_dummy.csv
+
+.tox
+dist
+node_modules
+dist
+
+# Compiled Python bytecode
+*.py[cod]

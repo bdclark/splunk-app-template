@@ -1,0 +1,20 @@
+{
+  "name": "myapp",
+  "version": "0.1.0",
+  "description": "Does stuff",
+  "repository": {},
+  "license": "UNLICENSED",
+  "scripts": {
+    "lint": "semistandard",
+    "lint-fix": "semistandard --fix"
+  },
+  "semistandard": {
+    "ignore": [
+      "dist/"
+    ]
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^2.3.1",
+    "semistandard": "^14.2.3"
+  }
+}
